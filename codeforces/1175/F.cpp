@@ -7,45 +7,19 @@ using namespace std;
 typedef long long ll;
 typedef pair<ll, ll> ii;
 
-#define x first
-#define y second
-
 const int N = 3e5 + 10;
+
+struct item {
+	int l, r, val;
+	item() {}
+	item(int l, int r, int val) : l(l), r(r), val(val) {}
+};
+deque<item> dq;
 
 int n;
 int a[N];
-ii hsh[N];
-ii hshSum[N];
-ii prefSum[N];
-
-void add(ii& a, ii b) {
-	a.x ^= b.x;
-	a.y ^= b.y;
-}
-
-bool isOkay(int l, int r) {
-	if (l <= 0) return false;
-	if (r > n) return false;
-
-	ii currSum = prefSum[r];
-	add(currSum, prefSum[l - 1]);
-
-	return currSum == hshSum[r - l + 1];
-}
-
-ll solve(int at) {
-	ll ret = 0LL;
-
-	int r;
-	int mx = 1;
-	for (r = at + 1; r <= n && a[r] != 1; r++) {
-		mx = max(mx, a[r]);
-
-		ret += isOkay(r - mx + 1, r);
-	}
-
-	return ret;
-}
+int vis[N], cnt[2 * N];
+ll ans;
 
 int main() {
 	#ifdef LOCAL
@@ -55,37 +29,36 @@ int main() {
 
 	cin >> n;
 
-	ll x = 0LL;
 	for (int i = 1; i <= n; i++) {
 		scanf("%d", &a[i]);
-		x ^= a[i];
-	}
 
-	mt19937 rnd(time(NULL));
-	for (int i = 1; i < N; i++) {
-		hsh[i].x = rnd() ^ x;
-		hsh[i].y = rnd() ^ x;
+		while (vis[a[i]]) {
+			item d = dq.front();
+			dq.pop_front();
 
-		hshSum[i] = hsh[i];
-		add(hshSum[i], hshSum[i - 1]);
-	}
+			vis[a[d.l]]--;
+			cnt[d.l + d.val - 1]--;
 
-	ll ans = 0LL;
-
-	for (int tc = 0; tc < 2; tc++) {
-		for (int i = 1; i <= n; i++) {
-			prefSum[i] = hsh[a[i]];
-			add(prefSum[i], prefSum[i - 1]);
-		}
-
-		for (int i = 1; i <= n; i++) {
-			if (a[i] == 1) {
-				ans += solve(i);
-				ans += (tc == 0);
+			d.l++;
+			if (d.l <= d.r) {
+				cnt[d.l + d.val - 1]++;
+				dq.push_front(d);
 			}
 		}
 
-		reverse(a + 1, a + n + 1);
+		vis[a[i]]++;
+
+		item d = item(i, i, a[i]);
+		while (!dq.empty() && (dq.back().val < a[i])) {
+			d.l = dq.back().l;
+			cnt[dq.back().l + dq.back().val - 1]--;
+			dq.pop_back();
+		}
+
+		cnt[d.l + d.val - 1]++;
+		dq.push_back(d);
+
+		ans += cnt[i];
 	}
 
 	cout << ans << endl;
