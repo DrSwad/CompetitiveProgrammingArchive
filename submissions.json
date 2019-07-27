@@ -1,4 +1,21 @@
 {
+  "CF57866396": {
+    "contest_id": 1155,
+    "language": "GNU C++17",
+    "path": "codeforces/1155/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Guess the Root",
+    "problem_url": "https://codeforces.com/contest/1155/problem/E",
+    "submission_id": "CF57866396",
+    "submission_url": "https://codeforces.com/contest/1155/submission/57866396",
+    "tags": [
+      "brute force",
+      "interactive",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Jul/28/2019 03:20"
+  },
   "CF57911401": {
     "contest_id": 1155,
     "language": "GNU C++17",
