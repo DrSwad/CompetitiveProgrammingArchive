@@ -1,4 +1,22 @@
 {
+  "CF57850940": {
+    "contest_id": 1167,
+    "language": "GNU C++17",
+    "path": "codeforces/1167/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Range Deleting",
+    "problem_url": "https://codeforces.com/contest/1167/problem/E",
+    "submission_id": "CF57850940",
+    "submission_url": "https://codeforces.com/contest/1167/submission/57850940",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "data structures",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Jul/27/2019 19:06"
+  },
   "CF57866396": {
     "contest_id": 1155,
     "language": "GNU C++17",
