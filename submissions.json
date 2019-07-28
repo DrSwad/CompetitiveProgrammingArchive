@@ -1,4 +1,23 @@
 {
+  "CF57911401": {
+    "contest_id": 1155,
+    "language": "GNU C++17",
+    "path": "codeforces/1155/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Beautiful Array",
+    "problem_url": "https://codeforces.com/contest/1155/problem/D",
+    "submission_id": "CF57911401",
+    "submission_url": "https://codeforces.com/contest/1155/submission/57911401",
+    "tags": [
+      "brute force",
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Jul/29/2019 02:29"
+  },
   "CF57914383": {
     "contest_id": 1140,
     "language": "GNU C++17",
