@@ -1,4 +1,21 @@
 {
+  "CF57914383": {
+    "contest_id": 1140,
+    "language": "GNU C++17",
+    "path": "codeforces/1140/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Palindrome-less Arrays",
+    "problem_url": "https://codeforces.com/contest/1140/problem/E",
+    "submission_id": "CF57914383",
+    "submission_url": "https://codeforces.com/contest/1140/submission/57914383",
+    "tags": [
+      "combinatorics",
+      "divide and conquer",
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Jul/29/2019 05:45"
+  },
   "CF57960462": {
     "contest_id": 1140,
     "language": "GNU C++17",
