@@ -1,4 +1,21 @@
 {
+  "CF57960462": {
+    "contest_id": 1140,
+    "language": "GNU C++17",
+    "path": "codeforces/1140/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Extending Set of Points",
+    "problem_url": "https://codeforces.com/contest/1140/problem/F",
+    "submission_id": "CF57960462",
+    "submission_url": "https://codeforces.com/contest/1140/submission/57960462",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dsu",
+      "*2600"
+    ],
+    "timestamp": "Jul/30/2019 03:52"
+  },
   "CF57961722": {
     "contest_id": 1132,
     "language": "GNU C++17",
