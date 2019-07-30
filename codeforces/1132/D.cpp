@@ -5,7 +5,7 @@ using namespace std;
 #define debug(a) cerr << #a << ": " << a << endl
 
 typedef long long ll;
-typedef pair<ll, ll> ii;
+typedef pair<ll, int> li;
 
 #define x first
 #define y second
@@ -17,27 +17,28 @@ int n, k;
 ll a[N], b[N];
 
 bool check(ll x) {
-	auto cmp = [](const pair<ll, ii>& p1, const pair<ll, ii>& p2) {
+	auto cmp = [](const li& p1, const li& p2) {
 		return p1.x > p2.x;
 	};
-	priority_queue<pair<ll, ii>, vector<pair<ll, ii>>, decltype(cmp)> pq(cmp);
+	priority_queue<li, vector<li>, decltype(cmp)> pq(cmp);
 
 	for (int i = 1; i <= n; i++) {
-		pq.push({a[i] / b[i], {a[i] % b[i], b[i]}});
+		pq.push({a[i] / b[i], i});
 	}
 
+	vector<ll> _a(a, a + n + 1);
+
 	for (int d = 0; d <= k - 1; d++) {
-		pair<ll, ii> top = pq.top();
+		li top = pq.top();
 		pq.pop();
 		ll day = top.x;
-		ll rem = top.y.x;
-		ll _b = top.y.y;
+		int id = top.y;
 
 		if (day < d) return false;
 
-		rem = rem + x;
+		_a[id] = _a[id] % b[id] + x;
 
-		pq.push({day + rem / _b, {rem % _b, _b}});
+		pq.push({day + _a[id] / b[id], id});
 	}
 
 	return true;
