@@ -1,4 +1,19 @@
 {
+  "CF58186435": {
+    "contest_id": 1117,
+    "language": "GNU C++17",
+    "path": "codeforces/1117/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Recursive Queries",
+    "problem_url": "https://codeforces.com/contest/1117/problem/G",
+    "submission_id": "CF58186435",
+    "submission_url": "https://codeforces.com/contest/1117/submission/58186435",
+    "tags": [
+      "data structures",
+      "*2500"
+    ],
+    "timestamp": "Aug/02/2019 23:21"
+  },
   "CF58233516": {
     "contest_id": 1117,
     "language": "GNU C++17",
