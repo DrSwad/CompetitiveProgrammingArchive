@@ -1,4 +1,20 @@
 {
+  "CF58233516": {
+    "contest_id": 1117,
+    "language": "GNU C++17",
+    "path": "codeforces/1117/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Crisp String",
+    "problem_url": "https://codeforces.com/contest/1117/problem/F",
+    "submission_id": "CF58233516",
+    "submission_url": "https://codeforces.com/contest/1117/submission/58233516",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2500"
+    ],
+    "timestamp": "Aug/04/2019 00:09"
+  },
   "CF58236072": {
     "contest_id": 1117,
     "language": "GNU C++17",
