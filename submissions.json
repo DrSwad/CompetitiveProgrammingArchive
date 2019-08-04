@@ -1,4 +1,23 @@
 {
+  "CF58255985": {
+    "contest_id": 1107,
+    "language": "GNU C++17",
+    "path": "codeforces/1107/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Vasya and Endless Credits",
+    "problem_url": "https://codeforces.com/contest/1107/problem/F",
+    "submission_id": "CF58255985",
+    "submission_url": "https://codeforces.com/contest/1107/submission/58255985",
+    "tags": [
+      "dp",
+      "flows",
+      "graph matchings",
+      "graphs",
+      "sortings",
+      "*2600"
+    ],
+    "timestamp": "Aug/04/2019 16:02"
+  },
   "CF58304749": {
     "contest_id": 1101,
     "language": "GNU C++17",

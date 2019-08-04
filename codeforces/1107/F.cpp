@@ -1,45 +1,43 @@
 #include <bits/stdc++.h>
-
+ 
 using namespace std;
-
+ 
+#define debug(a) cerr << #a << ": " << a << endl
+ 
 typedef long long ll;
-typedef pair<int, int> pii;
+typedef pair<int, int> ii;
+typedef long double ld;
+ 
 #define x first
 #define y second
+ 
+const int N = 505;
 
-#ifdef LOCAL
-#include "debug.h"
-#endif
+struct offer {
+	ll a, b, k;
 
-const int MAXN = 510;
-
-struct Hungarian { // Returns minimum possible sum of assignment values
-	ll n,i,j,k,l,m,p,q,V[MAXN][MAXN],R[MAXN],C[MAXN],M[MAXN],P[MAXN],N[MAXN],U[MAXN];
-	Hungarian(ll n) : n(n) {
-		for(i=MAXN; i--;) R[i]=C[i]=M[i]=P[i]=N[i]=U[i]=0;
+	bool operator < (const offer& other) const {
+		return b > other.b;
 	}
-	ll solve() {
-		for(i=1; i<=n; ++i) {
-			for(j=1; j<=n; ++j) U[j]=N[j]=LLONG_MAX;
-			for(M[p=q=0]=i,U[0]=N[0]=LLONG_MAX; M[p]; p=q) {
-				for(l=LLONG_MAX,k=M[p],U[p]=0,j=1; j<=n; ++j) if(U[j]) {
-					m=V[k][j]-R[k]-C[j];
-					if(m<N[j]) N[j]=m,P[j]=p;
-					if(l>N[j]) l=N[j],q=j;
-				}
-				for(j=0; j<=n; ++j) {
-					if(U[j]) N[j]-=l;
-					else R[M[j]]+=l,C[j]-=l;
-				}
-			}
-			while(p) q=P[p],M[p]=M[q],p=q;
-		}
-		return -C[0];
-	}
-};
+} offers[N];
 
 int n;
-ll a[MAXN], b[MAXN], k[MAXN];
+ll dp[N][N];
+
+ll DP(int day, int at) {
+	ll &ret = dp[day][at];
+	if (ret != -1) return ret;
+
+	ret = 0LL;
+	if (at == 0) return ret;
+
+	offer off = offers[at];
+	ret = DP(day, at - 1);
+	ret = max(ret, DP(day, at - 1) + off.a - off.k * off.b);
+	if (day >= 1) ret = max(ret, DP(day - 1, at - 1) + off.a - ((ll)day - 1) * off.b);
+
+	return ret;
+}
 
 int main() {
 	#ifdef LOCAL
@@ -47,20 +45,20 @@ int main() {
 	freopen("out", "w", stdout);
 	#endif
 
-	scanf("%d", &n);
-	for (int i = 1; i <= n; i++) {
-		scanf("%lld %lld %lld", &a[i], &b[i], &k[i]);
-	}
+	cin >> n;
 
-	Hungarian h = Hungarian(n);
+	for (int i = 1; i <= n; i++)
+		cin >> offers[i].a >> offers[i].b >> offers[i].k;
 
-	for (int i = 1; i <= n; i++) {
-		for (int j = 1; j <= n; j++) {
-			h.V[i][j] = - max(0LL, (a[j] - min((ll)i - 1, k[j]) * b[j]));
-		}
-	}
+	sort(offers + 1, offers + n + 1);
 
-	printf("%lld\n", -h.solve());
+	memset(dp, -1, sizeof dp);
+
+	ll ans = 0LL;
+	for (int day = 0; day <= n; day++)
+		ans = max(ans, DP(day, n));
+
+	cout << ans << endl;
 
 	return 0;
 }
