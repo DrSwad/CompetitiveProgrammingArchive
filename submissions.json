@@ -1,4 +1,19 @@
 {
+  "CF58334987": {
+    "contest_id": 1199,
+    "language": "GNU C++17",
+    "path": "codeforces/1199/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Rectangle Painting 1",
+    "problem_url": "https://codeforces.com/contest/1199/problem/F",
+    "submission_id": "CF58334987",
+    "submission_url": "https://codeforces.com/contest/1199/submission/58334987",
+    "tags": [
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Aug/05/2019 17:07"
+  },
   "CF58343569": {
     "contest_id": 1101,
     "language": "GNU C++17",
