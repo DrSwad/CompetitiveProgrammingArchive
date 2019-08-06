@@ -1,4 +1,22 @@
 {
+  "CF58378664": {
+    "contest_id": 895,
+    "language": "GNU C++17",
+    "path": "codeforces/895/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Square Subsets",
+    "problem_url": "https://codeforces.com/contest/895/problem/C",
+    "submission_id": "CF58378664",
+    "submission_url": "https://codeforces.com/contest/895/submission/58378664",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "dp",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Aug/06/2019 15:06"
+  },
   "CF58382020": {
     "contest_id": 959,
     "language": "GNU C++17",
