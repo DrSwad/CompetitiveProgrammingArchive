@@ -1,4 +1,19 @@
 {
+  "CF59764143": {
+    "contest_id": 357,
+    "language": "GNU C++17",
+    "path": "codeforces/357/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Xenia and Hamming",
+    "problem_url": "https://codeforces.com/contest/357/problem/D",
+    "submission_id": "CF59764143",
+    "submission_url": "https://codeforces.com/contest/357/submission/59764143",
+    "tags": [
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Aug/30/2019 23:35"
+  },
   "CF59814370": {
     "contest_id": 875,
     "language": "GNU C++17",
