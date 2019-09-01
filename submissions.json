@@ -1,4 +1,22 @@
 {
+  "CF59871299": {
+    "contest_id": 1204,
+    "language": "GNU C++17",
+    "path": "codeforces/1204/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Natasha, Sasha and the Prefix Sums",
+    "problem_url": "https://codeforces.com/contest/1204/problem/E",
+    "submission_id": "CF59871299",
+    "submission_url": "https://codeforces.com/contest/1204/submission/59871299",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2300"
+    ],
+    "timestamp": "Sep/02/2019 01:32"
+  },
   "CF60685871": {
     "contest_id": 412,
     "language": "GNU C++17",
