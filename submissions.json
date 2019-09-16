@@ -1,4 +1,21 @@
 {
+  "CF60690787": {
+    "contest_id": 1209,
+    "language": "GNU C++17",
+    "path": "codeforces/1209/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Paint the Numbers",
+    "problem_url": "https://codeforces.com/contest/1209/problem/A",
+    "submission_id": "CF60690787",
+    "submission_url": "https://codeforces.com/contest/1209/submission/60690787",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/16/2019 23:15"
+  },
   "CF60691856": {
     "contest_id": 1209,
     "language": "GNU C++17",
