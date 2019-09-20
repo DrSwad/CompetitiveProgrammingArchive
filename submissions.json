@@ -1,4 +1,19 @@
 {
+  "CF60943741": {
+    "contest_id": 602,
+    "language": "GNU C++17",
+    "path": "codeforces/602/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Lipshitz Sequence",
+    "problem_url": "https://codeforces.com/contest/602/problem/D",
+    "submission_id": "CF60943741",
+    "submission_url": "https://codeforces.com/contest/602/submission/60943741",
+    "tags": [
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Sep/21/2019 00:04"
+  },
   "CF61014639": {
     "contest_id": 555,
     "language": "GNU C++17",
