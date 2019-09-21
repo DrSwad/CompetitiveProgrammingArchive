@@ -1,4 +1,21 @@
 {
+  "CF61035287": {
+    "contest_id": 1216,
+    "language": "GNU C++17",
+    "path": "codeforces/1216/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Wi-Fi",
+    "problem_url": "https://codeforces.com/contest/1216/problem/F",
+    "submission_id": "CF61035287",
+    "submission_url": "https://codeforces.com/contest/1216/submission/61035287",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Sep/22/2019 01:29"
+  },
   "CF61931413": {
     "contest_id": 337,
     "language": "GNU C++17",
