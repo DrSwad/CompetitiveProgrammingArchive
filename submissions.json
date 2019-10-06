@@ -1,4 +1,20 @@
 {
+  "CF62014413": {
+    "contest_id": 1240,
+    "language": "GNU C++17",
+    "path": "codeforces/1240/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Sequence Sorting",
+    "problem_url": "https://codeforces.com/contest/1240/problem/B",
+    "submission_id": "CF62014413",
+    "submission_url": "https://codeforces.com/contest/1240/submission/62014413",
+    "tags": [
+      "dp",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Oct/06/2019 21:59"
+  },
   "CF62060181": {
     "contest_id": 1240,
     "language": "GNU C++17",
