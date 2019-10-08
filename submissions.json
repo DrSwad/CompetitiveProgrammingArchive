@@ -1,4 +1,20 @@
 {
+  "CF62102032": {
+    "contest_id": 1240,
+    "language": "GNU C++17",
+    "path": "codeforces/1240/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Wooden Raft",
+    "problem_url": "https://codeforces.com/contest/1240/problem/E",
+    "submission_id": "CF62102032",
+    "submission_url": "https://codeforces.com/contest/1240/submission/62102032",
+    "tags": [
+      "math",
+      "number theory",
+      "*3200"
+    ],
+    "timestamp": "Oct/08/2019 15:26"
+  },
   "CF62121285": {
     "contest_id": 1238,
     "language": "GNU C++17",
