@@ -1,4 +1,20 @@
 {
+  "CF62186852": {
+    "contest_id": 1238,
+    "language": "GNU C++17",
+    "path": "codeforces/1238/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Keyboard Purchase",
+    "problem_url": "https://codeforces.com/contest/1238/problem/E",
+    "submission_id": "CF62186852",
+    "submission_url": "https://codeforces.com/contest/1238/submission/62186852",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Oct/09/2019 14:32"
+  },
   "CF62195066": {
     "contest_id": 1238,
     "language": "GNU C++17",
