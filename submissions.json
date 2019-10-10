@@ -1,4 +1,21 @@
 {
+  "CF62253826": {
+    "contest_id": 1238,
+    "language": "GNU C++17",
+    "path": "codeforces/1238/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Adilbek and the Watering System",
+    "problem_url": "https://codeforces.com/contest/1238/problem/G",
+    "submission_id": "CF62253826",
+    "submission_url": "https://codeforces.com/contest/1238/submission/62253826",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings",
+      "*2700"
+    ],
+    "timestamp": "Oct/10/2019 16:09"
+  },
   "CF62327596": {
     "contest_id": 1097,
     "language": "GNU C++17",
