@@ -1,4 +1,21 @@
 {
+  "CF62374263": {
+    "contest_id": 124,
+    "language": "GNU C++17",
+    "path": "codeforces/124/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Squares",
+    "problem_url": "https://codeforces.com/contest/124/problem/D",
+    "submission_id": "CF62374263",
+    "submission_url": "https://codeforces.com/contest/124/submission/62374263",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Oct/11/2019 22:44"
+  },
   "CF62464299": {
     "contest_id": 1244,
     "language": "GNU C++17",
