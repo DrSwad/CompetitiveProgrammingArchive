@@ -1,4 +1,20 @@
 {
+  "CF62507643": {
+    "contest_id": 1244,
+    "language": "GNU C++17",
+    "path": "codeforces/1244/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Chips",
+    "problem_url": "https://codeforces.com/contest/1244/problem/F",
+    "submission_id": "CF62507643",
+    "submission_url": "https://codeforces.com/contest/1244/submission/62507643",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Oct/13/2019 18:44"
+  },
   "CF62513894": {
     "contest_id": 1244,
     "language": "GNU C++17",
