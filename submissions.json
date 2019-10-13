@@ -1,4 +1,24 @@
 {
+  "CF62491658": {
+    "contest_id": 1244,
+    "language": "GNU C++17",
+    "path": "codeforces/1244/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Minimizing Difference",
+    "problem_url": "https://codeforces.com/contest/1244/problem/E",
+    "submission_id": "CF62491658",
+    "submission_url": "https://codeforces.com/contest/1244/submission/62491658",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "ternary search",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Oct/13/2019 16:33"
+  },
   "CF62507643": {
     "contest_id": 1244,
     "language": "GNU C++17",
