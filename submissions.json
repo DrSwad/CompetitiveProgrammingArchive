@@ -1,4 +1,22 @@
 {
+  "CF62808454": {
+    "contest_id": 1236,
+    "language": "GNU C++17",
+    "path": "codeforces/1236/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Alice and the Doll",
+    "problem_url": "https://codeforces.com/contest/1236/problem/D",
+    "submission_id": "CF62808454",
+    "submission_url": "https://codeforces.com/contest/1236/submission/62808454",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Oct/17/2019 20:57"
+  },
   "CF62893666": {
     "contest_id": 1236,
     "language": "GNU C++17",
