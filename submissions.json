@@ -1,4 +1,22 @@
 {
+  "CF62893666": {
+    "contest_id": 1236,
+    "language": "GNU C++17",
+    "path": "codeforces/1236/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Alice and the Unfair Game",
+    "problem_url": "https://codeforces.com/contest/1236/problem/E",
+    "submission_id": "CF62893666",
+    "submission_url": "https://codeforces.com/contest/1236/submission/62893666",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "dsu",
+      "*2500"
+    ],
+    "timestamp": "Oct/19/2019 04:01"
+  },
   "CF63197759": {
     "contest_id": 1249,
     "language": "GNU C++17",
