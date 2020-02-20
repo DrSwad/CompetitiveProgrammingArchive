@@ -1,4 +1,20 @@
 {
+  "CF71513754": {
+    "contest_id": 1215,
+    "language": "GNU C++17",
+    "path": "codeforces/1215/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Marbles",
+    "problem_url": "https://codeforces.com/contest/1215/problem/E",
+    "submission_id": "CF71513754",
+    "submission_url": "https://codeforces.com/contest/1215/submission/71513754",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Feb/21/2020 01:07"
+  },
   "CF71889151": {
     "contest_id": 1264,
     "language": "GNU C++17",
