@@ -1,4 +1,24 @@
 {
+  "CF71468683": {
+    "contest_id": 1307,
+    "language": "GNU C++17",
+    "path": "codeforces/1307/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Cow and Treats",
+    "problem_url": "https://codeforces.com/contest/1307/problem/E",
+    "submission_id": "CF71468683",
+    "submission_url": "https://codeforces.com/contest/1307/submission/71468683",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "*2500"
+    ],
+    "timestamp": "Feb/20/2020 08:15"
+  },
   "CF71513754": {
     "contest_id": 1215,
     "language": "GNU C++17",
