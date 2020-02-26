@@ -1,4 +1,21 @@
 {
+  "CF71910120": {
+    "contest_id": 1285,
+    "language": "GNU C++17",
+    "path": "codeforces/1285/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Classical?",
+    "problem_url": "https://codeforces.com/contest/1285/problem/F",
+    "submission_id": "CF71910120",
+    "submission_url": "https://codeforces.com/contest/1285/submission/71910120",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "number theory",
+      "*2900"
+    ],
+    "timestamp": "Feb/26/2020 17:27"
+  },
   "CF72019952": {
     "contest_id": 1307,
     "language": "GNU C++17",
