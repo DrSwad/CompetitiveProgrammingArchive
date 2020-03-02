@@ -1,4 +1,18 @@
 {
+  "CF72231225": {
+    "contest_id": 33,
+    "language": "GNU C++17",
+    "path": "codeforces/33/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Helper",
+    "problem_url": "https://codeforces.com/contest/33/problem/E",
+    "submission_id": "CF72231225",
+    "submission_url": "https://codeforces.com/contest/33/submission/72231225",
+    "tags": [
+      "*2600"
+    ],
+    "timestamp": "Mar/02/2020 12:39"
+  },
   "CF72358662": {
     "contest_id": 1107,
     "language": "GNU C++17",
