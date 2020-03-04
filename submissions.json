@@ -1,4 +1,20 @@
 {
+  "CF72392387": {
+    "contest_id": 1261,
+    "language": "GNU C++17",
+    "path": "codeforces/1261/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Not Same",
+    "problem_url": "https://codeforces.com/contest/1261/problem/E",
+    "submission_id": "CF72392387",
+    "submission_url": "https://codeforces.com/contest/1261/submission/72392387",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*2600"
+    ],
+    "timestamp": "Mar/04/2020 12:37"
+  },
   "CF72413754": {
     "contest_id": 1262,
     "language": "GNU C++17",
