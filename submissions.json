@@ -1,4 +1,20 @@
 {
+  "CF72413754": {
+    "contest_id": 1262,
+    "language": "GNU C++17",
+    "path": "codeforces/1262/F2.cpp",
+    "problem_index": "F2",
+    "problem_name": "Wrong Answer on test 233 (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1262/problem/F2",
+    "submission_id": "CF72413754",
+    "submission_url": "https://codeforces.com/contest/1262/submission/72413754",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Mar/04/2020 18:46"
+  },
   "CF72507294": {
     "contest_id": 1262,
     "language": "GNU C++17",
