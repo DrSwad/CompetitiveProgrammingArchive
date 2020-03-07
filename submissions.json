@@ -1,4 +1,20 @@
 {
+  "CF72674178": {
+    "contest_id": 1076,
+    "language": "GNU C++17",
+    "path": "codeforces/1076/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Summer Practice Report",
+    "problem_url": "https://codeforces.com/contest/1076/problem/F",
+    "submission_id": "CF72674178",
+    "submission_url": "https://codeforces.com/contest/1076/submission/72674178",
+    "tags": [
+      "dp",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Mar/07/2020 21:47"
+  },
   "CF72753517": {
     "contest_id": 808,
     "language": "GNU C++17",
