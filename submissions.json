@@ -1,4 +1,21 @@
 {
+  "CF72753517": {
+    "contest_id": 808,
+    "language": "GNU C++17",
+    "path": "codeforces/808/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Card Game",
+    "problem_url": "https://codeforces.com/contest/808/problem/F",
+    "submission_id": "CF72753517",
+    "submission_url": "https://codeforces.com/contest/808/submission/72753517",
+    "tags": [
+      "binary search",
+      "flows",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Mar/09/2020 02:33"
+  },
   "CF72835984": {
     "contest_id": 1312,
     "language": "GNU C++17",
