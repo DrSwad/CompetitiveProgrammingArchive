@@ -1,4 +1,21 @@
 {
+  "CF74100802": {
+    "contest_id": 1327,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1327/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Count The Blocks",
+    "problem_url": "https://codeforces.com/contest/1327/problem/E",
+    "submission_id": "CF74100802",
+    "submission_url": "https://codeforces.com/contest/1327/submission/74100802",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Mar/23/2020 21:45"
+  },
   "CF74113096": {
     "contest_id": 1327,
     "language": "GNU C++17 (64)",
