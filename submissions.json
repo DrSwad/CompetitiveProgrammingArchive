@@ -1,4 +1,22 @@
 {
+  "CF74185428": {
+    "contest_id": 444,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/444/D.cpp",
+    "problem_index": "D",
+    "problem_name": "DZY Loves Strings",
+    "problem_url": "https://codeforces.com/contest/444/problem/D",
+    "submission_id": "CF74185428",
+    "submission_url": "https://codeforces.com/contest/444/submission/74185428",
+    "tags": [
+      "binary search",
+      "hashing",
+      "strings",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Mar/24/2020 16:03"
+  },
   "CF74218366": {
     "contest_id": 1327,
     "language": "GNU C++17 (64)",
