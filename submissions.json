@@ -1,4 +1,23 @@
 {
+  "CF74218366": {
+    "contest_id": 1327,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1327/F.cpp",
+    "problem_index": "F",
+    "problem_name": "AND Segments",
+    "problem_url": "https://codeforces.com/contest/1327/problem/F",
+    "submission_id": "CF74218366",
+    "submission_url": "https://codeforces.com/contest/1327/submission/74218366",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Mar/24/2020 21:52"
+  },
   "CF74286101": {
     "contest_id": 1327,
     "language": "GNU C++17 (64)",
