@@ -1,4 +1,21 @@
 {
+  "CF74286101": {
+    "contest_id": 1327,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1327/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Letters and Question Marks",
+    "problem_url": "https://codeforces.com/contest/1327/problem/G",
+    "submission_id": "CF74286101",
+    "submission_url": "https://codeforces.com/contest/1327/submission/74286101",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "string suffix structures",
+      "*2800"
+    ],
+    "timestamp": "Mar/25/2020 17:58"
+  },
   "CF74399515": {
     "contest_id": 1328,
     "language": "GNU C++17 (64)",
