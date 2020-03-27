@@ -1,4 +1,21 @@
 {
+  "CF74577666": {
+    "contest_id": 1139,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1139/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Maximize Mex",
+    "problem_url": "https://codeforces.com/contest/1139/problem/E",
+    "submission_id": "CF74577666",
+    "submission_url": "https://codeforces.com/contest/1139/submission/74577666",
+    "tags": [
+      "flows",
+      "graph matchings",
+      "graphs",
+      "*2400"
+    ],
+    "timestamp": "Mar/27/2020 22:06"
+  },
   "CF74930580": {
     "contest_id": 1332,
     "language": "GNU C++17 (64)",
