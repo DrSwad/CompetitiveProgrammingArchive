@@ -3,11 +3,9 @@
 using namespace std;
 
 typedef long long ll;
-typedef __int128 LL;
 typedef pair<int, int> pii;
 #define x first
 #define y second
-typedef complex<double> base;
 
 #ifdef LOCAL
 #include "/Users/swad/Desktop/CP/debug.h"
@@ -16,64 +14,6 @@ typedef complex<double> base;
 const int MAXT = 2505;
 const int MAXN = 55;
 const int MOD = int(1e9) + 7;
-const double PI = acos(-1);
-
-void fft(vector<base> &a, bool inv) {
-	int n = a.size();
-	int j = 0;
-
-	for (int i = 1; i < n; i++) {
-		int bit = n >> 1;
-
-		while (j >= bit) {
-			j -= bit;
-			bit >>= 1;
-		}
-		j += bit;
-
-		if (i < j) swap(a[i], a[j]);
-	}
-
-	vector<base> roots(n / 2);
-	double ang = 2 * PI / n * (inv ? -1 : 1);
-	for (int i = 0; i < n / 2; i++)
-		roots[i] = base(cos(ang * i), sin(ang * i));
-
-	for (int i = 2; i <= n; i <<= 1) {
-		int step = n / i;
-
-		for (int j = 0; j < n; j += i) {
-			for (int k = 0; k < i / 2; k++) {
-				base u = a[j + k], v = a[j + k + i / 2] * roots[k * step];
-				a[j + k] = u + v;
-				a[j + k + i / 2] = u - v;
-			}
-		}
-	}
-
-	if (inv) for (int i = 0; i < n; i++) a[i] /= n;
-}
-
-vector<ll> multiply(vector<ll> &a, vector<ll> &b) {
-	vector<base> fa(a.begin(), a.end()), fb(b.begin(), b.end());
-
-	int n = 2;
-	while (n < a.size() + b.size()) n <<= 1;
-
-	fa.resize(n);
-	fft(fa, false);
-
-	fb.resize(n);
-	fft(fb, false);
-
-	for (int i = 0; i < n; i++) fa[i] *= fb[i];
-
-	fft(fa, 1);
-	vector<ll> ret(n);
-	for (int i = 0; i < n; i++) ret[i] = (ll)round(fa[i].real());
-
-	return ret;
-}
 
 int n, T;
 int cnt[3];
@@ -115,12 +55,17 @@ int main() {
 	}
 
 	for (int take0 = 0; take0 <= cnt[0]; take0++) {
-		for (int take1 = 0; take1 <= cnt[1]; take1++) {
-			vector<ll> a(gen_ways[0][take0], gen_ways[0][take0] + MAXT);
-			vector<ll> b(gen_ways[1][take1], gen_ways[1][take1] + MAXT);
-			vector<ll> c = multiply(a, b);
-			for (int sum = 0; sum < MAXT; sum++)
-				gen2_ways[take0][take1][sum] = c[sum] % MOD;
+		for (int sum0 = 0; sum0 < MAXT; sum0++) {
+			for (int take1 = 0; take1 <= cnt[1]; take1++) {
+				for (int sum1 = 0; sum0 + sum1 < MAXT; sum1++) {
+					gen2_ways[take0][take1][sum0 + sum1] +=
+						(ll)gen_ways[0][take0][sum0] *
+						gen_ways[1][take1][sum1] % MOD;
+
+					if (gen2_ways[take0][take1][sum0 + sum1] >= MOD)
+						gen2_ways[take0][take1][sum0 + sum1] -= MOD;
+				}
+			}
 		}
 	}
 
