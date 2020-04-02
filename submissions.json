@@ -1,4 +1,21 @@
 {
+  "CF75290815": {
+    "contest_id": 1131,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1131/E.cpp",
+    "problem_index": "E",
+    "problem_name": "String Multiplication",
+    "problem_url": "https://codeforces.com/contest/1131/problem/E",
+    "submission_id": "CF75290815",
+    "submission_url": "https://codeforces.com/contest/1131/submission/75290815",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*2300"
+    ],
+    "timestamp": "Apr/03/2020 03:11"
+  },
   "CF75311994": {
     "contest_id": 1119,
     "language": "GNU C++17 (64)",
