@@ -55,8 +55,8 @@ int main() {
 	}
 
 	for (int take0 = 0; take0 <= cnt[0]; take0++) {
-		for (int take1 = 0; take1 <= cnt[1]; take1++) {
-			for (int sum0 = 0; sum0 < MAXT; sum0++) {
+		for (int sum0 = 0; sum0 < MAXT; sum0++) {
+			for (int take1 = 0; take1 <= cnt[1]; take1++) {
 				for (int sum1 = 0; sum0 + sum1 < MAXT; sum1++) {
 					gen2_ways[take0][take1][sum0 + sum1] +=
 						(ll)gen_ways[0][take0][sum0] *
@@ -71,8 +71,8 @@ int main() {
 
 	take_ways[1][0][0][0] = take_ways[0][1][0][1] = take_ways[0][0][1][2] = 1;
 	for (int take0 = 0; take0 <= cnt[0]; take0++) {
-		for (int take1 = 0; take1 <= cnt[1]; take1++) {
-			for (int take2 = 0; take2 <= cnt[2]; take2++) {
+		for (int take2 = 0; take2 <= cnt[2]; take2++) {
+			for (int take1 = 0; take1 <= cnt[1]; take1++) {
 				if (take0 + take1 + take2 <= 1) continue;
 
 				if (take0 > 0) {
