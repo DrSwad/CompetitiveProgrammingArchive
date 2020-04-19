@@ -12,13 +12,12 @@ typedef pair<int, int> pii;
 #endif
 
 const int N = int(3e5) + 10;
-const int LOGN = 22;
 
 
 int main() {
 	#ifdef LOCAL
 	freopen("in", "r", stdin);
-	freopen("out", "w", stdout);
+	freopen("bfout", "w", stdout);
 	#endif
 
 	int t;
@@ -31,53 +30,13 @@ int main() {
 		vector<ll> a(n), b(n);
 		for (int i = 0; i < n; i++) scanf("%lld %lld", &a[i], &b[i]);
 
-		vector<vector<pair<int, ll>>> jump(LOGN, vector<pair<int, ll>>(n));
-
-		jump[0][0].y = a[0];
-		for (jump[0][0].x = 1; jump[0][0].x < n; jump[0][0].x++) {
-			if (a[jump[0][0].x] > b[jump[0][0].x - 1]) break;
-		}
-
-		for (int i = n - 1; i > 0; i--) {
-			jump[0][i].y = a[i];
-			if (a[(i + 1) % n] > b[i]) jump[0][i].x = 1;
-			else {
-				jump[0][i].x = min(n, 1 + jump[0][(i + 1) % n].x);
-			}
-		}
-
-		for (int len = 1; len < LOGN; len++) {
-			for (int i = 0; i < n; i++) {
-				if (jump[len - 1][i].x >= n) {
-					jump[len][i] = jump[len - 1][i];
-				}
-				else {
-					int nxt = (i + jump[len - 1][i].x) % n;
-					jump[len][i].x = min(n, jump[len - 1][i].x +
-									 jump[len - 1][nxt].x);
-					jump[len][i].y = jump[len - 1][i].y +
-									 jump[len - 1][nxt].y -
-									 b[(nxt - 1 + n) % n];
-				}
-			}
-		}
-
-		ll ans = LLONG_MAX;
-
+		ll ans = 0LL, mini = LLONG_MAX;
 		for (int i = 0; i < n; i++) {
-			ll curr = b[(i - 1 + n) % n];
-			int moved = 0, jump_len = LOGN - 1;
-
-			while (moved + jump[0][(i + moved) % n].x < n) {
-				while (moved + jump[jump_len][(i + moved) % n].x >= n) jump_len--;
-
-				curr += jump[jump_len][(i + moved) % n].y - b[(i + moved - 1 + n) % n];
-				moved += jump[jump_len][(i + moved) % n].x;
-			}
-
-			curr += jump[0][(i + moved) % n].y - b[(i + moved - 1 + n) % n];
-			ans = min(ans, curr);
+			ans += max(0LL, a[i] - b[(i - 1 + n) % n]);
+			a[i] = min(a[i], b[(i - 1 + n) % n]);
+			mini = min(mini, a[i]);
 		}
+		ans += mini;
 
 		printf("%lld\n", ans);
 	}
