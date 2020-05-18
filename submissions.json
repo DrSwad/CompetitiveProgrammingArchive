@@ -1,4 +1,20 @@
 {
+  "CF80634355": {
+    "contest_id": 59,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/59/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Shortest Path",
+    "problem_url": "https://codeforces.com/contest/59/problem/E",
+    "submission_id": "CF80634355",
+    "submission_url": "https://codeforces.com/contest/59/submission/80634355",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*2000"
+    ],
+    "timestamp": "May/19/2020 01:14"
+  },
   "CF95857154": {
     "contest_id": 1421,
     "language": "GNU C++17 (64)",
